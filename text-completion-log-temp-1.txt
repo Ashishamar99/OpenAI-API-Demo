@@ -1,0 +1,35 @@
+(env) D:\OpenAI-API-Demo>python main.py
+Enter prompt for text completion:: i ate a
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": " tigress who\u2019s got kittens.\u2019 The prisoners are angry and the word is that we can expect the worst. They ask"
+    },
+    {
+      "finish_reason": "length",
+      "index": 1,
+      "logprobs": null,
+      "text": " cockroach-covered bit of oatmeal.\n\n\n\nDanny usually tops off the two a.m. feeding. He's a whole different"
+    },
+    {
+      "finish_reason": "length",
+      "index": 2,
+      "logprobs": null,
+      "text": "t a very nice restaurant beforehand, it was called The Dolphin. I had bourbon chile chicken, which was meant to be Cajun inspired."
+    }
+  ],
+  "created": 1674406918,
+  "id": "cmpl-6bY188wEziM41MhLNRejdCT3gnEDf",
+  "model": "code-davinci-002",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 90,
+    "prompt_tokens": 2,
+    "total_tokens": 92
+  }
+}
+
+(env) D:\OpenAI-API-Demo>

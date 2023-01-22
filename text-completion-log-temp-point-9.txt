@@ -1,0 +1,32 @@
+(env) D:\OpenAI-API-Demo>python main.py
+Enter prompt for text completion:: i ate a   
+{
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "text": "nuale, n majoritatea crora au participat, n plus fa de grupele locale, i pietricenii fug"
+    },
+    {
+      "finish_reason": "length",
+      "index": 1,
+      "logprobs": null,
+      "text": "live by a bear\u201d assumption seriously.\n\nThe Bear Attack\n\nMissing limbs. A punctured skull. Bruises on the neck and"    
+    },
+    {
+      "text": "pni zameen khareedna hai.\n\nAssalam-o-alaikum.\n\n[1]http://"
+    }
+  ],
+  "created": 1674406799,
+  "id": "cmpl-6bXzDDvjeDiBjgB1rAPqKfV3VpBlE",
+  "model": "code-davinci-002",
+  "object": "text_completion",
+  "usage": {
+    "completion_tokens": 90,
+    "prompt_tokens": 2,
+    "total_tokens": 92
+  }
+}
+
+(env) D:\OpenAI-API-Demo>
