@@ -7,6 +7,7 @@ Parameters for request are :
 
 - max_tokens - The maximum number of tokens to generate in the completion. Tokens are not just the number of words in the prompt, but a particular sequence which is commonly used.
 ![tokens.png](images/tokens.png)
+![tokensv1.png](images/tokens%20v1.png)
 - temperature - temperature is like a value for the model based on which it will decide whether if it needs to be creative or not. - [article link](https://towardsdatascience.com/how-to-sample-from-language-models-682bceb97277)
 - top_p - of the generated tokens will filter and give according to top probability value.
 ![top_p.png](images/topp.png)
